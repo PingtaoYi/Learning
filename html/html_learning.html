@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>html学习页</title>
+    <link rel="stylesheet" href="">
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="out.css">
+    <!-- 外联css -->
+</head>
+<style>
+    h5 {
+        color: rgb(55, 0, 255);
+        size: 60px;
+        font-style: italic
+    }
+
+    /* html内css */
+
+    #p6 {
+        color: blueviolet;
+    }
+
+    /*用id指定样式*/
+
+    .cs1 {
+        color: darkorange
+    }
+
+    /*用class选择器指定样式，注意前面加.引入，另外id及class都可以组合使用，比如h1.cs1需要即是段落，又是class才加入样式*/
+
+    p:hover{
+        color: blueviolet
+    }
+     /*伪类选择器，鼠标悬浮上去后的效果*/
+
+    body{
+        background-color: #bcbcc0
+    }
+</style>
+
+<body>
+    <h1 id="回去" style="color: rgba(255, 0, 0,0.5);
+    font-size: 30px">第一段</h1>
+    <!-- 内联css -->
+    <h2 style="color: rgb(73, 221, 15);">第二段</h2>
+    <h3>第三段</h3>
+    <h4>第四段</h4>
+    <h5>第五段</h5>
+    <h6 id="p6">第六段</h6>
+    <p>
+        这是一个自然段落
+    </p>
+    <p class="cs1">测试class属性的自然段落</p>
+    <p class="cs1">测试class属性的自然段落</p>
+    <p class="cs1">测试class属性的自然段落</p>
+    <a href="www.baidu.com" target="_blank">一个神奇的网站</a>
+    <a href="https://www.baidu.com">一个神奇的网站</a>
+    <br>
+    <img src="R.png" height="200" />
+    <img src="R.png" width="300" alt="200" />
+    <br>
+    <img src="R.png" width="300" alt="200" />
+    <img src="R.png" width="300" alt="200" />
+    <div>
+        简单写点，这是div
+    </div>
+    <div>
+        简单写点，这是div
+    </div>
+    <span>
+        你好，这是测试span
+    </span>
+    <span>
+        你好，这是测试span
+    </span>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>height</th>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>18</td>
+            <td>188cm</td>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>18</td>
+            <td>188cm</td>
+        </tr>
+    </table>
+    <ul>
+        <li>第一行无序列表</li>
+        <li>第二行无序列表</li>
+        <li>第三行无序列表</li>
+    </ul>
+
+    <ol>
+        <li>第一行</li>
+        <li>第二行有序列表</li>
+        <li>第三行有序列表</li>
+    </ol>
+
+    <select name="" id="">
+        <option value="">湖北</option>
+        <option value="">上海</option>
+        <option value="">北京</option>
+        <option value="">广州</option>
+    </select>
+
+    <a href="#回去">调回去</a>
+    <form action="">
+        用户名
+        <input type="text" name="" id=""> 密码
+        <input type="text" name="" id=""> 一段文本
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button>登陆</button>
+
+        <input type="color" name="" id="">
+    </form>
+
+
+
+
+</body>
+
+</html>
